@@ -4,7 +4,7 @@ import SearchBar from '../components/SearchBar';
 import ResultsList from '../components/ResultsList';
 import useResults from '../hooks/useResults';
 
-const SearchScreen = () => {
+const SearchScreen = ({}) => {
   const [term, setTerm] = useState('');
   const [searchApi, results, errorMessage] = useResults();
 
